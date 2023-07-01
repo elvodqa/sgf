@@ -1,0 +1,59 @@
+{
+	"authors": [
+		"Emir Cengiz"
+	],
+	"buildRequirements": [
+		"allowWarnings"
+	],
+	"buildTypes": {
+		"dg_debug": {
+			"buildOptions": [
+				"debugMode",
+				"debugInfoC",
+				"alwaysStackFrame",
+				"unittests",
+				"warnings"
+			]
+		},
+		"dg_release": {
+			"buildOptions": [
+				"releaseMode",
+				"inline",
+				"noBoundsCheck",
+				"optimize",
+				"warnings"
+			]
+		}
+	},
+	"configurations": [
+		{
+			"dflags": [
+				"-Dd../docs",
+				"-debug"
+			],
+			"importPaths": [
+				"../"
+			],
+			"name": "main",
+			"sourceFiles": [
+				"main.d"
+			],
+			"sourcePaths": [
+				"../"
+			],
+			"targetName": "sgf-example",
+			"targetType": "executable"
+		}
+	],
+	"copyright": "Copyright © 2023, Emir Cengiz",
+	"dependencies": {
+		
+	},
+	"description": "A minimal D application.",
+	"lflags": [
+		"-L../../../lib",
+		"-L/usr/X11R6/lib"
+	],
+	"license": "proprietary",
+	"name": "sgf"
+}

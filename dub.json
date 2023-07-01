@@ -1,0 +1,26 @@
+{
+	"authors": [
+		"Emir Cengiz"
+	],
+	"buildRequirements": [
+		"allowWarnings"
+	],
+	"configurations": [
+		{
+			"excludedSourceFiles": [
+				"source/sdf/test/**"
+			],
+			"name": "lib",
+			"targetName": "sdf",
+			"targetPath": "lib",
+			"targetType": "library"
+		}
+	],
+	"copyright": "Copyright © 2023, Emir Cengiz",
+	"dependencies": {
+		
+	},
+	"description": "Game library",
+	"license": "proprietary",
+	"name": "sdf"
+}

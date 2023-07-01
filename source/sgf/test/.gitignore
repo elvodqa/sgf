@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sgf
+sgf.so
+sgf.dylib
+sgf.dll
+sgf.a
+sgf.lib
+sgf-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+sgf-example
